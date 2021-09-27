@@ -1,6 +1,6 @@
 # About The Project
 
-A CLI app made with nodeJS. This quiz is about how well do you know me. You will be asked questions about me and if your answer is right you will get one and if wrong a point will be deducted from your score. You can't score less than zero 😝.
+A CLI app made with nodeJS. This quiz is about how well do you know me. You will be asked questions about me and if your answer is right you will get one point. You can't score less than zero 😝.
 
 ## What's a CLI?
 
