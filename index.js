@@ -13,17 +13,25 @@ var questions = [
     {
         question: "Where do I live?  ",
         answer: "Indore",
-    }
+    },
+    {
+    question: "Where do I work?  ",
+    answer: "Infosys",
+  },
+  {
+    question: "My favourite movie?  ",
+    answer: "Interstellar",
+  },
 ];
 
 var highScores = [
     {
         name: "Manvendra",
-        score: 3,
+        score: 5,
     },
     {
         name: "Siddharth",
-        score: 2,
+        score: 4,
     },
 ];
 
@@ -43,9 +51,6 @@ function play(questions) {
             console.log("Your Current Score is ", score);
         }
         else {
-            if (score) {
-                score = score - 1;
-            }
             console.log("You are wrong!");
             console.log("Your Current Score is ", score);
         }
